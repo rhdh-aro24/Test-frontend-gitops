@@ -1,0 +1,15 @@
+app:
+  name: Test-poi-map-app
+  namespace: Test
+  cluster: .apps.kovj5vhc.eastus.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-aro24/Test-frontend
+  org: rhdh-aro24
+  name: Test-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: Test/poi-map-app
+  tag: latest
